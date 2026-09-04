@@ -167,26 +167,6 @@ MySQL database — structured station and reading tables.
 MongoDB collection — document-based representation of selected station data.
 JSON output — exported MongoDB document.
 
-Project Structure
-air-quality-data-analysis/
-│
-├── README.md
-│
-├── data/
-│   ├── air-quality-data-2003-2022.csv
-│   ├── crop.csv
-│   └── clean.csv
-│
-├── python/
-│   ├── data_filtering.py
-│   ├── data_cleaning.py
-│   └── csv_to_sql.py
-│
-├── mysql/
-│   └── insert-100.sql
-│
-└── mongodb/
-    └── pollution_data.json
 
 Conclusion
 This project demonstrates a complete data preparation and database integration workflow using Python, Pandas, MySQL and MongoDB.
